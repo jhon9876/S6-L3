@@ -6,6 +6,15 @@
 @import "./partials/animazioni";
 @import "./partials/colori";
 
+
+header {
+    div {
+        img {
+            width:"50px";
+        }
+    }
+};
+
 main {
     .hero{
         @include grid(1);
