@@ -1,0 +1,17 @@
+@mixin title-big($fontSize) {
+    font-size: $fontSize;
+    
+};
+
+@mixin floating($border:0px, $border-radius:0px, $box-shadow:none ){
+    border:$border;
+    box-shadow:$box-shadow;
+    $border-radius: $border-radius
+};
+
+@mixin grid($elementiPerRiga){
+    display: flex;
+    width: calc(100%/$elementiPerRiga);
+};
+
+

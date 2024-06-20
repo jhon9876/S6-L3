@@ -1,0 +1,25 @@
+$sizeMap: (sm:0.5rem, 
+normal:1rem , 
+md:1.5rem , 
+lg:2rem , 
+xl:2.5rem , 
+xxl:3rem);
+
+@each $key, $value in $sizeMap{
+    .padding-block-#{$key}{
+        padding: $value;
+    }
+    .padding-inline-#{$key}{
+        padding:$value
+    }
+
+    .margin-block-#{$key}{
+        margin:$value;
+    }
+    .margin-inline-#{$key}{
+        margin:$value;
+    }
+}
+
+
+

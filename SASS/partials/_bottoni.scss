@@ -1,0 +1,13 @@
+@import "./colori";
+
+$colorMap:(
+    blue:$colorePrimoBottone,
+    orange:$coloreSecondoBottone,
+    green:$coloreTerzoBottone
+);
+
+@each $key, $value in $colorMap{
+    .button-#{$key}{
+        background-color: $value;
+    }
+}

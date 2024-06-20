@@ -1,0 +1,21 @@
+$colorePrimoBottone: #0e6cff;
+$coloreSecondoBottone:#ff8700;
+$coloreTerzoBottone:#4caf50;
+p{
+    color: #d56d6d
+};
+
+// button{
+//     &:first-of-type{background-color: #0e6cff};
+//     &:nth-of-type(2){background-color: #ff8700;}
+//     &:last-of-type{background-color: #4caf50;}
+// };
+
+
+
+main{
+    .hero{
+        background-color: #640fc5;
+    }
+}
+
